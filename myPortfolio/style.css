@@ -32,3 +32,54 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.image_about{
+    width: 100%;
+}
+
+.navbarDark{
+    background: rgb(180, 177, 177);
+}
+
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    color: #36dd41;
+    
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.card-text{
+    text-align: center;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fab-facebook:hover,.fab-instagram:hover,.fab-twitter:hover,.fab-linkedin:hover, .fab-twitch:hover {
+    color: #008000;
+}
+.fab:hover {
+    color: #7888d2;
+}
+/* footer styling */
+#footer {
+    background-color: whitesmoke;
+    text-align: center;
+}
